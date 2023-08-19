@@ -4,8 +4,7 @@ const App = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    // Отправляем GET-запрос на "/test" при загрузке компоненты
-    fetch('/test')
+    fetch('https://testserver-4cba.onrender.com/test')
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error('Error fetching data:', error));
