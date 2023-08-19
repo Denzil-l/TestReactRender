@@ -21,7 +21,6 @@ const App = () => {
       )}
     </div>
 
-    <h2>Hi I am here</h2>
   );
 
 }
