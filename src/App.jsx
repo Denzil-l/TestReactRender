@@ -19,6 +19,8 @@ const App = () => {
       ) : (
         <p>Loading data...</p>
       )}
+
+      <h2>test</h2>
     </div>
 
   );
